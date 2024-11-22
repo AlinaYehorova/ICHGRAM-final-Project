@@ -1,6 +1,8 @@
 .profileLink {
     display: flex;
     width: fit-content;
+    padding: 4px;
+    border-radius: var(--border-radius-s);
 
 }
 
@@ -22,7 +24,7 @@
 
 
 .profileLink:hover {
-background-color: var(--color-bg-dark-grey);
+box-shadow: 0 0 5px var(--color-bg-dark-grey);
    cursor:pointer;
  }
 
