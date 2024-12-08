@@ -93,9 +93,11 @@ label {
 }
 
 .uploadButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0095F6;
     color: #fff;
-    padding: 6px 15px;
     border-radius: 8px;
     font-size: 14px;
     cursor: pointer;
